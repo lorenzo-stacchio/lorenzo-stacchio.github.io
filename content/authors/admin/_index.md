@@ -36,10 +36,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD student in Computer Science
+    - course: Ph.D. in Computer Science
       institution: University of Bologna
       year: 2020 - (2024)
-    - course: MEng in Computer Science
+    - course: MD in Computer Science
       institution: University of Bologna
       year: 2018 - 2020
     - course: BSc in Computer Science
@@ -73,7 +73,8 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    # link: '/#contact'
+    link: "mailto:lorenzo.stacchio2@unibo.it"
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=oHkM91kAAAAJ&hl=it&authuser=2

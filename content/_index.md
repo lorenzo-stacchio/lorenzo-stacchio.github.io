@@ -227,16 +227,16 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
-  - block: contact
-    id: contact
-    content:
-      title: Contact
+  # - block: contact
+  #   id: contact
+  #   content:
+  #     title: Contact
       # subtitle:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
 
       # Contact (add or remove contact options as necessary)
-      email: lorenzo.stacchio2@unibo.it
+      # email: lorenzo.stacchio2@unibo.it
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:
@@ -250,7 +250,7 @@ sections:
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
       #   - 'Wednesday 09:00 to 10:00'
-      contact_links:
+      # contact_links:
         # - icon: twitter
         #   icon_pack: fab
         #   name: DM Me
@@ -259,20 +259,20 @@ sections:
         #   icon_pack: fab
         #   name: Skype Me
         #   link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Teams Me
-          link: 'https://www.microsoft.com/en-us/microsoft-teams/'
+        # - icon: video
+        #   icon_pack: fas
+        #   name: Teams Me
+        #   link: 'https://www.microsoft.com/en-us/microsoft-teams/'
       # Automatically link email and phone or display as text?
-      autolink: true
+      # autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
