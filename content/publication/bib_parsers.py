@@ -5,6 +5,7 @@ import copy
 import markdown
 import markdown_it
 import codecs
+import datetime
 
 def parse_bibtex_file(file_path):
     with open(file_path, 'r') as bibtex_file:
@@ -32,8 +33,9 @@ def generateMD(citation, featured = False):
     for author in citation["author"].split("and"):
         final_md += f"- \"\"\n"
 
-    # final_md += f"date: {citation['year']}\n"
-    final_md += f"date: \"2017-01-01T00:00:00Z\"\n"
+    parsed_date = datetime.datetime.strptime(citation['year'], "%Y")
+
+    final_md += f"date: \"{parsed_date}\"\n"
 
     final_md += f"doi: \"\"\n"    
     
