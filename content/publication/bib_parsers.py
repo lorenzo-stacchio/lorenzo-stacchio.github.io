@@ -14,6 +14,7 @@ def parse_bibtex_file(file_path):
         return bib_database
 
 def generateMD(citation):
+    print(citation)
     final_md = "---\n"
     title = citation['title']
     title = title.replace(":", " ")
@@ -24,26 +25,34 @@ def generateMD(citation):
     for author in citation["author"].split("and"):
         surname, name = [x.strip() for x in author.split(",")]
         final_md += f"- {name} {surname}\n"
-    final_md += f"date: {citation['year']}\n"    
-    final_md += f"doi: ''\n"    
     
-    final_md += f"publishDate: '2017-01-01T00:00:00Z'\n"    
+    final_md += "author_notes:\n"
+    # print(citation["author"])
+    for author in citation["author"].split("and"):
+        final_md += f"- \"\"\n"
 
-    final_md += f"publication_types:  ['article-journal']\n"    
+    # final_md += f"date: {citation['year']}\n"
+    final_md += f"date: \"2017-01-01T00:00:00Z\"\n"
+
+    final_md += f"doi: \"\"\n"    
+    
+    final_md += f"publishDate: \"2017-01-01T00:00:00Z\"\n"    
+
+    final_md += f"publication_types:  [\"article-journal\"]\n"    
 
 
     # # Publication name and optional abbreviated publication name.
-    # publication: "*Journal of Source Themes, 1*(1)"
-    # publication_short: ""
-    final_md += f"abstract:  ''\n"    
+    final_md += f"publication: {citation['journal']}, {citation['publisher']}\n"
+    final_md += f"publication_short: \"\"\n"
+    final_md += f"abstract:  \"\"\n"    
 
     # abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
     # # Summary. An optional shortened abstract.
-    final_md += f"summary:  ''\n"
+    final_md += f"summary:  \"\"\n"
 
     ### TAGS
-    final_md += f"tags:  ''\n"
+    final_md += f"tags:\n"
     final_md += f"- Source Themes\n"
     final_md += f"featured: false\n"
 
