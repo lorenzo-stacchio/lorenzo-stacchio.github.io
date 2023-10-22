@@ -15,7 +15,10 @@ def parse_bibtex_file(file_path):
 
 def generateMD(citation):
     final_md = "---\n"
-    final_md += f"title: '{citation['title']}'\n"
+    title = citation['title']
+    title = title.replace(":", " ")
+
+    final_md += f"title: '{title}'\n"
     final_md += "authors:\n"
     # print(citation["author"])
     for author in citation["author"].split("and"):
