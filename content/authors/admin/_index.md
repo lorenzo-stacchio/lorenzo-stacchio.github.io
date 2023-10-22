@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Lorenzo Stacchio
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# # Name pronunciation (optional)
+name_pronunciation: Lorenzo Stacchio
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Lorenzo
+last_name: Stacchio
 
 # Status emoji
 status:
