@@ -91,7 +91,7 @@ def generateMD(citation, featured=False, mode="journal"):
     # url_video: ''
     final_md += "---\n"
 
-    final_md += "{{% callout note %}}\n Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software. \n{{% /callout %}}\n"
+    # final_md += "{{% callout note %}}\n Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software. \n{{% /callout %}}\n"
 
     return final_md
 
