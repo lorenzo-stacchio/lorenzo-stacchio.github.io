@@ -198,6 +198,7 @@ sections:
   #     columns: '2'
   #     view: card
   - block: collection
+    id: recentpub
     content:
       title: Recent Publications
       text: |-
@@ -207,7 +208,7 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: true
+        exclude_featured: false
     design:
       columns: '2'
       view: citation
