@@ -95,5 +95,5 @@ social:
 highlight_name: true
 ---
 
-Lorenzo Stacchio is a Ph.D. student in Computer Science at the Department for Life Quality Studies of the University of Bologna. His research involves the combination of Machine Learning techniques and eXtended Reality paradigms in Industrial and Cultural/Creative fields. He published more than 15 research papers in International Journal and Conferences.
+Lorenzo Stacchio is a Ph.D. student in Computer Science at the Department for Life Quality Studies of the University of Bologna. His research involves the combination of Machine Learning and eXtended Reality paradigms in the Industrial and Cultural/Creative fields. He has published more than 15 research papers in international journals and conferences.
 {style="text-align: justify;"}
