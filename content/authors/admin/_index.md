@@ -17,34 +17,34 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Ph.D. student in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Bologna
+    url: https://www.unibo.it/en/homepage
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research involves the combination of eXtended Reality and Machine Learning paradigms, mainly in Industrial and Cultural/Creative contexts.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - eXtended Reality
+  - Deep Learning 
+  - Computer Vision
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD student in Computer Science
+      institution: University of Bologna
+      year: 2020 - (2024)
+    - course: MEng in Computer Science
+      institution: University of Bologna
+      year: 2018 - 2020
+    - course: BSc in Computer Science
+      institution: University of Camerino
+      year: 2015 - 2018
 
 # Skills
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -56,16 +56,6 @@ skills:
       percent: 80
       icon: python
       icon_pack: fab
-    - name: Data Science
-      description: ''
-      percent: 100
-      icon: chart-line
-      icon_pack: fas
-    - name: SQL
-      description: ''
-      percent: 40
-      icon: database
-      icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -74,16 +64,6 @@ skills:
         description: ''
         percent: 60
         icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
         icon_pack: fas
 
 # Social/Academic Networking
