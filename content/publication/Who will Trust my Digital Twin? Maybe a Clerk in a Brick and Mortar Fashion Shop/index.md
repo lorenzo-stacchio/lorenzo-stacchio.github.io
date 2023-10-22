@@ -1,12 +1,14 @@
 ---
-title: 'Toward a Holistic Approach to the Socio-historical Analysis of Vernacular Photos'
+title: 'Who will Trust my Digital Twin? Maybe a Clerk in a Brick and Mortar Fashion Shop'
 authors:
 - Lorenzo Stacchio
-- Alessia Angeli
-- Giuseppe Lisanti
-- Daniela Calanca
+- Michele Perlino
+- Ulderico Vagnoni
+- Federica Sasso
+- Claudia Scorolli
 - Gustavo Marfia
 author_notes:
+- ""
 - ""
 - ""
 - ""
@@ -16,7 +18,7 @@ date: "2022-01-01 00:00:00"
 doi: ""
 publishDate: "2017-01-01T00:00:00Z"
 publication_types:  ["paper-conference"]
-publication: ""
+publication: 2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)
 publication_short: ""
 abstract:  ""
 summary:  ""

@@ -18,8 +18,8 @@ author_notes:
 date: "2023-01-01 00:00:00"
 doi: ""
 publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["article-journal"]
-publication: Computers in Human Behavior, Pergamon
+publication_types:  ["paper-conference"]
+publication: ""
 publication_short: ""
 abstract:  ""
 summary:  ""

@@ -1,22 +1,18 @@
 ---
-title: 'Toward a Holistic Approach to the Socio-historical Analysis of Vernacular Photos'
+title: 'Preserving family album photos with the hololens 2'
 authors:
 - Lorenzo Stacchio
-- Alessia Angeli
-- Giuseppe Lisanti
-- Daniela Calanca
+- Shirin Hajahmadi
 - Gustavo Marfia
 author_notes:
 - ""
 - ""
 - ""
-- ""
-- ""
-date: "2022-01-01 00:00:00"
+date: "2021-01-01 00:00:00"
 doi: ""
 publishDate: "2017-01-01T00:00:00Z"
 publication_types:  ["paper-conference"]
-publication: ""
+publication: 2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)
 publication_short: ""
 abstract:  ""
 summary:  ""

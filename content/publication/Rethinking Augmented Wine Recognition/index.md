@@ -1,11 +1,11 @@
 ---
-title: 'Toward a Holistic Approach to the Socio-historical Analysis of Vernacular Photos'
+title: 'Rethinking Augmented Wine Recognition'
 authors:
 - Lorenzo Stacchio
-- Alessia Angeli
-- Giuseppe Lisanti
-- Daniela Calanca
-- Gustavo Marfia
+- A Angeli
+- L Donatiello
+- A Giacche
+- G Marfia
 author_notes:
 - ""
 - ""
@@ -16,7 +16,7 @@ date: "2022-01-01 00:00:00"
 doi: ""
 publishDate: "2017-01-01T00:00:00Z"
 publication_types:  ["paper-conference"]
-publication: ""
+publication: 2022 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)
 publication_short: ""
 abstract:  ""
 summary:  ""

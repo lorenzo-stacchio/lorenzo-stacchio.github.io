@@ -1,13 +1,11 @@
 ---
-title: 'Toward a Holistic Approach to the Socio-historical Analysis of Vernacular Photos'
+title: 'Searching for cultural relationships through deep learning models'
 authors:
 - Lorenzo Stacchio
 - Alessia Angeli
 - Giuseppe Lisanti
-- Daniela Calanca
 - Gustavo Marfia
 author_notes:
-- ""
 - ""
 - ""
 - ""
