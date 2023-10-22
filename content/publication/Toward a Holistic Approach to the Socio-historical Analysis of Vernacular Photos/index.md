@@ -1,14 +1,12 @@
 ---
-title: 'Exploiting fashion x-commerce through the empowerment of voice in the fashion virtual reality arena  Integrating voice assistant and virtual reality technologies for fashion communication'
+title: 'Toward a Holistic Approach to the Socio-historical Analysis of Vernacular Photos'
 authors:
-- Elena Morotti
 - Lorenzo Stacchio
-- Lorenzo Donatiello
-- Marco Roccetti
-- Jari Tarabelli
+- Alessia Angeli
+- Giuseppe Lisanti
+- Daniela Calanca
 - Gustavo Marfia
 author_notes:
-- ""
 - ""
 - ""
 - ""
@@ -18,7 +16,7 @@ date: "2017-01-01T00:00:00Z"
 doi: ""
 publishDate: "2017-01-01T00:00:00Z"
 publication_types:  ["article-journal"]
-publication: Virtual Reality, Springer London
+publication: ACM Transactions on Multimedia Computing, Communications and Applications, ACM New York, NY
 publication_short: ""
 abstract:  ""
 summary:  ""

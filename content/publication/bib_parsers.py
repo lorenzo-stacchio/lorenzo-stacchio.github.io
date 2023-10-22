@@ -13,7 +13,7 @@ def parse_bibtex_file(file_path):
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
         return bib_database
 
-def generateMD(citation):
+def generateMD(citation, featured = False):
     print(citation)
     final_md = "---\n"
     title = citation['title']
@@ -22,7 +22,8 @@ def generateMD(citation):
     final_md += f"title: '{title}'\n"
     final_md += "authors:\n"
     # print(citation["author"])
-    for author in citation["author"].split("and"):
+    for author in citation["author"].split(" and "):
+        print(author)
         surname, name = [x.strip() for x in author.split(",")]
         final_md += f"- {name} {surname}\n"
     
@@ -54,7 +55,7 @@ def generateMD(citation):
     ### TAGS
     final_md += f"tags:\n"
     final_md += f"- Source Themes\n"
-    final_md += f"featured: false\n"
+    final_md += f"featured: {str(featured).lower()}\n"
 
     # tags:
     # - Source Themes
@@ -80,7 +81,7 @@ def generateMD(citation):
 
 # You can access other fields as well, e.g., citation['author'], citation['year'], etc.
 
-journals = "/workspaces/lorenzo-stacchio.github.io/content/publication/journal-article/cite.bib"
+journals = "/workspaces/lorenzo-stacchio.github.io/content/publication/journals.bib"
 template_journal_md = "/workspaces/lorenzo-stacchio.github.io/static/templates/template_journal_index.md"
 pub_dir = "/workspaces/lorenzo-stacchio.github.io/content/publication/"
 
@@ -105,10 +106,11 @@ for idx, citation in enumerate(journal_citations.entries):
         bibtexparser.dump(bib_database, bibtex_file)
 
     ## NEW MD FILE
-    md = generateMD(citation)
+    last_n = 2
+    md = generateMD(citation, featured = idx >= len(journal_citations.entries)-last_n)
     print(md)
     md_out = out_dir + "index.md"
 
     with open(md_out, 'w') as md_file:
         md_file.write(md)
-    break
+    # break

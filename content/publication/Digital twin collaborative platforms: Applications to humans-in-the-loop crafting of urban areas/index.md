@@ -1,13 +1,15 @@
 ---
-title: 'Exploiting fashion x-commerce through the empowerment of voice in the fashion virtual reality arena  Integrating voice assistant and virtual reality technologies for fashion communication'
+title: 'Digital twin collaborative platforms  Applications to humans-in-the-loop crafting of urban areas'
 authors:
-- Elena Morotti
-- Lorenzo Stacchio
+- Luciano Bononi
 - Lorenzo Donatiello
-- Marco Roccetti
-- Jari Tarabelli
+- Danila Longo
+- Martina Massari
+- Federico Montori
+- Lorenzo Stacchio
 - Gustavo Marfia
 author_notes:
+- ""
 - ""
 - ""
 - ""
@@ -18,7 +20,7 @@ date: "2017-01-01T00:00:00Z"
 doi: ""
 publishDate: "2017-01-01T00:00:00Z"
 publication_types:  ["article-journal"]
-publication: Virtual Reality, Springer London
+publication: IEEE Consumer Electronics Magazine, IEEE
 publication_short: ""
 abstract:  ""
 summary:  ""

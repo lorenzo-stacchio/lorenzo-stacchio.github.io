@@ -1,15 +1,11 @@
 ---
-title: 'Exploiting fashion x-commerce through the empowerment of voice in the fashion virtual reality arena  Integrating voice assistant and virtual reality technologies for fashion communication'
+title: 'Analyzing cultural relationships visual cues through deep learning models in a cross-dataset setting'
 authors:
-- Elena Morotti
 - Lorenzo Stacchio
-- Lorenzo Donatiello
-- Marco Roccetti
-- Jari Tarabelli
+- Alessia Angeli
+- Giuseppe Lisanti
 - Gustavo Marfia
 author_notes:
-- ""
-- ""
 - ""
 - ""
 - ""
@@ -18,13 +14,13 @@ date: "2017-01-01T00:00:00Z"
 doi: ""
 publishDate: "2017-01-01T00:00:00Z"
 publication_types:  ["article-journal"]
-publication: Virtual Reality, Springer London
+publication: Neural Computing and Applications, Springer London London
 publication_short: ""
 abstract:  ""
 summary:  ""
 tags:
 - Source Themes
-featured: false
+featured: true
 ---
 {{% callout note %}}
  Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software. 
