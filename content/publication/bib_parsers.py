@@ -55,7 +55,6 @@ def generateMD(citation, featured=False, mode="journal"):
     if mode == "journal":
         final_md += f"publication: {citation['journal']}, {citation['publisher']}\n"
     else:
-        print(citation)
         if "booktitle" in citation:
             final_md += f"publication: {citation['booktitle']}\n"
         else:
@@ -103,17 +102,19 @@ conferences = "/workspaces/lorenzo-stacchio.github.io/content/publication/confer
 
 pub_dir = "/workspaces/lorenzo-stacchio.github.io/content/publication/"
 
-journal_citations = parse_bibtex_file(journals)
-conference_citations = parse_bibtex_file(conferences)
+# journal_citations = parse_bibtex_file(journals)
+# conference_citations = parse_bibtex_file(conferences)
 
-print(journal_citations)
+# print(journal_citations)
 
 # block_mode = [(journal_citations, "journal"),(conference_citations, "conference")]
 
-block_mode = [(conference_citations, "conference"),
-              (journal_citations, "journal")]
+block_mode = [[conferences, "conference"],
+              [journals, "journal"]]
 
-for (citations_n, mode) in block_mode:
+
+for citations_path, mode in zip([conferences,journals],["conference", "journal"]):
+    citations_n =  parse_bibtex_file(citations_path)
     for idx, citation in enumerate(citations_n.entries):
         bib_database_n = copy.deepcopy(citations_n)
         bib_database_n.entries = bib_database_n.entries[idx:idx+1]
@@ -131,10 +132,9 @@ for (citations_n, mode) in block_mode:
         # NEW MD FILE
         last_n = 2
         md = generateMD(citation, featured=idx >= len(
-            citations_n.entries)-last_n, mode=block_mode)
+            citations_n.entries)-last_n, mode=mode)
         print(md)
         md_out = out_dir + "index.md"
 
         with open(md_out, 'w') as md_file:
             md_file.write(md)
-        # break
