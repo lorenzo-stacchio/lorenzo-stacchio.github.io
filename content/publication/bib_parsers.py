@@ -99,18 +99,7 @@ def generateMD(citation, featured=False, mode="journal"):
 
 journals = "/workspaces/lorenzo-stacchio.github.io/content/publication/journals.bib"
 conferences = "/workspaces/lorenzo-stacchio.github.io/content/publication/conferences.bib"
-
 pub_dir = "/workspaces/lorenzo-stacchio.github.io/content/publication/"
-
-# journal_citations = parse_bibtex_file(journals)
-# conference_citations = parse_bibtex_file(conferences)
-
-# print(journal_citations)
-
-# block_mode = [(journal_citations, "journal"),(conference_citations, "conference")]
-
-block_mode = [[conferences, "conference"],
-              [journals, "journal"]]
 
 
 for citations_path, mode in zip([conferences,journals],["conference", "journal"]):
