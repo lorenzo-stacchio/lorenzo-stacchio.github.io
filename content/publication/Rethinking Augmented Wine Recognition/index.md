@@ -2,10 +2,10 @@
 title: 'Rethinking Augmented Wine Recognition'
 authors:
 - Lorenzo Stacchio
-- A Angeli
-- L Donatiello
-- A Giacche
-- G Marfia
+- Alessia Angeli
+- Lorenzo Donatiello
+- Alessandro Giacche
+- Gustavo Marfia
 author_notes:
 - ""
 - ""

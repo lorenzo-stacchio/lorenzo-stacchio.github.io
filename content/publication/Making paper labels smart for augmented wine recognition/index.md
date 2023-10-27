@@ -1,5 +1,5 @@
 ---
-title: 'Analyzing cultural relationships visual cues through deep learning models in a cross-dataset setting'
+title: 'Making paper labels smart for augmented wine recognition'
 authors:
 - Alessia Angeli
 - Lorenzo Stacchio
