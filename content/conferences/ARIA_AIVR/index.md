@@ -19,8 +19,8 @@ abstract: 'The emergence of the metaverse, an immersive digital-physical ecosyst
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-04-14T08:00:00Z'
-date_end: '2023-04-18T18:00:00Z'
+date: '2024-04-14T08:00:00Z'
+date_end: '2024-04-18T18:00:00Z'
 all_day: false
 
 
@@ -28,13 +28,13 @@ all_day: false
 # publishDate: '2017-01-01T00:00:00Z'
 
 authors: [Lorenzo Stacchio]
-tags: [eXtended Reality, Artificial Intelligence, ]
+tags: [eXtended Reality, Artificial Intelligence, Fashion]
 
 # Is this a featured talk? (true/false)
 featured: false
 
 image:
-  caption: 'Image credit: Generated with DALL·E 3'
+  caption: 'Generated with DALL·E 3'
   focal_point: Right
 
 # links:
