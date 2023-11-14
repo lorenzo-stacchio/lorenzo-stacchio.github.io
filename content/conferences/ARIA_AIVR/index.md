@@ -16,11 +16,13 @@ summary: 'Fashion for Metaverse'
 
 abstract: 'The emergence of the metaverse, an immersive digital-physical ecosystem, is becoming a tangible reality. In this interconnected space, facilitated by eXtended Reality (XR), digital virtual humans, akin to human counterparts, engage in diverse activities. The dressing of these digital entities, mapping real-world users, holds significance in reflecting internal and social characteristics. Despite global interest and investments in the "fashion-verse," challenges persist in defining a holistic solution. This special session seeks interdisciplinary discussions on smart solutions for the fashion-verse, exploring XR, Artificial Intelligence (AI), Non-Fungible Tokens (NFT), and Internet of Things (IoT) in fashion design, retrieval, modeling, and education.'
 
+
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-# date: '2030-06-01T13:00:00Z'
-# date_end: '2030-06-01T15:00:00Z'
-# all_day: false
+date: '2023-04-14T08:00:00Z'
+date_end: '2023-04-18T18:00:00Z'
+all_day: false
+
 
 # Schedule page publish date (NOT talk date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -40,7 +42,7 @@ image:
 #     icon_pack: fab
 #     name: Follow
 #     url: https://twitter.com/georgecushen
-url_code: 'https://www.iaria.org/conferences2024/AIVR24.html#:~:text=FAME%3A%20Fashion%20for%20Metaverse%0AChair%3A%20Lorenzo%20Stacchio%2C%20University%20of%20Bologna%2C%20Italy%20lorenzo.stacchio2%40unibo.it'
+url_code: ''
 url_pdf: ''
 url_slides: ''
 url_video: ''
