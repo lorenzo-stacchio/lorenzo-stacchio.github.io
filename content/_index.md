@@ -218,7 +218,7 @@ sections:
       title: Conferences
       filters:
         folders:
-          - event
+          - conferences
     design:
       columns: '2'
       view: compact
