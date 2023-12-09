@@ -42,8 +42,13 @@ image:
 #     icon_pack: fab
 #     name: Follow
 #     url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
+
+links:
+  - icon: Conference Home
+    url: https://www.iaria.org/conferences2024/AIVR24.html
+
+url_code: 'https://github.com/lorenzo-stacchio/Fashion-in-The-Metaverse-Tutorial'
+url_pdf: 'https://www.iaria.org/conferences2024/filesAIVR24/FAME.pdf'
 url_slides: ''
 url_video: ''
 
