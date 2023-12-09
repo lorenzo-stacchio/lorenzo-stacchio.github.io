@@ -45,10 +45,14 @@ image:
 
 links:
   - icon: Conference Home
+    name: Conference Website
     url: https://www.iaria.org/conferences2024/AIVR24.html
+  - icon: CFP
+    name: CFP
+    url: https://www.iaria.org/conferences2024/filesAIVR24/FAME.pdf
 
 url_code: 'https://github.com/lorenzo-stacchio/Fashion-in-The-Metaverse-Tutorial'
-url_pdf: 'https://www.iaria.org/conferences2024/filesAIVR24/FAME.pdf'
+url_pdf: ''
 url_slides: ''
 url_video: ''
 
