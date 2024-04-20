@@ -1,5 +1,5 @@
 ---
-title: 'HOCTOPUS  An Open-Source Cross-Reality tool to Augment Live-Streaming Remote Classes'
+title: 'M-AGEW: Empowering Outdoor Workouts with Data-Driven Augmented Reality Assistance'
 authors:
 - Lorenzo Stacchio
 - Vincenzo Armandi
@@ -15,7 +15,7 @@ date: "2024-01-15 00:00:00"
 doi: ""
 publishDate: "2017-01-01T00:00:00Z"
 publication_types:  ["paper-conference"]
-publication: ""
+publication: "2024 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)"
 publication_short: ""
 abstract:  ""
 summary:  ""
