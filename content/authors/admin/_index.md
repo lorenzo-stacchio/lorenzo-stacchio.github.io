@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. student in Computer Science
+role: Research Fellow in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Bologna
-    url: https://www.unibo.it/en/homepage
+  - name: University of Macerata
+    url: https://www.unimc.it/en?set_language=en
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research involves the combination of eXtended Reality and Machine Learning paradigms, mainly in Industrial and Cultural/Creative contexts.
@@ -36,6 +36,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: Research grant in Computer Science
+      institution: University of Macerata
+      year: 2024 - 2026
     - course: Ph.D. in Computer Science
       institution: University of Bologna
       year: 2020 - (2024)
@@ -74,7 +77,7 @@ social:
   - icon: envelope
     icon_pack: fas
     # link: '/#contact'
-    link: "mailto:lorenzo.stacchio2@unibo.it"
+    link: "mailto:lorenzo.stacchio@unimc.it"
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=oHkM91kAAAAJ&hl=it&authuser=2
@@ -95,5 +98,5 @@ social:
 highlight_name: true
 ---
 
-Lorenzo Stacchio is a Ph.D. student in Computer Science at the Department for Life Quality Studies of the University of Bologna. His research involves the combination of Machine Learning and eXtended Reality paradigms in the Industrial and Cultural/Creative fields. He has published more than 15 research papers in international journals and conferences.
+Lorenzo Stacchio is a Ph.D. candidate in Computer Science at the Department for Life Quality Studies of the University of Bologna and is currently a research fellow in Computer Science at the University of Macerata. His research involves the combination of Machine Learning and eXtended Reality paradigms in the Industrial and Cultural/Creative fields. He has published more than 20 research papers in international journals and conferences.
 {style="text-align: justify;"}

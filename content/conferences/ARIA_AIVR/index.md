@@ -1,5 +1,5 @@
 ---
-title: Chair at AIVR 2024 Special Track - Fashion for Metaverse (FAME)
+title: Special Session Chair at AIVR 2024 Special Track - Fashion for Metaverse (FAME)
 
 event: The First International Conference on Artificial Intelligence and Immersive Virtual Reality (AIVR 2024)
 event_url: https://www.iaria.org/conferences2024/AIVR24.html
