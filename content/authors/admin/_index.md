@@ -3,7 +3,7 @@
 title: Lorenzo Stacchio
 
 # # Name pronunciation (optional)
-name_pronunciation: Lorenzo Stacchio
+# name_pronunciation: Lorenzo Stacchio
 
 # Full name (for SEO)
 first_name: Lorenzo
