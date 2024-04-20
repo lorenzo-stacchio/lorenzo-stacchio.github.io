@@ -23,7 +23,7 @@ role: Research Fellow in Computer Science
 organizations:
   - name: University of Macerata
     url: https://www.unimc.it/en?set_language=en
-  - name: Vision Robotics and Artificial Intelligence (VRAI) Laboratory
+  - name: Vision Robotics and Artificial Intelligence Laboratory (VRAI) 
     url: https://vrai.dii.univpm.it/
   - name: Virtual and Augmented Reality Laboratory (VARLAB)
     url: https://site.unibo.it/varlab/en
