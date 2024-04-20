@@ -40,9 +40,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Research grant in Computer Science
-      institution: University of Macerata
-      year: 2024 - 2026
+    # - course: Research grant in Computer Science
+    #   institution: University of Macerata
+    #   year: 2024 - 2026
     - course: Ph.D. in Computer Science
       institution: University of Bologna
       year: 2020 - (2024)
