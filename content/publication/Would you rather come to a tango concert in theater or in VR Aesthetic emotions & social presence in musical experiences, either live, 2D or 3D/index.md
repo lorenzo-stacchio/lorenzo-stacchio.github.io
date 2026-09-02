@@ -7,23 +7,18 @@ authors:
 - Vincenzo Armandi
 - Giovanni Matteucci
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-date: "2023-01-01 00:00:00"
+date: "2023-12-01"
+publishDate: "2023-12-01"
 doi: ""
-publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["article-journal"]
-publication: Computers in Human Behavior, Pergamon
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["article-journal"]
+publication: 'Computers in Human Behavior, Pergamon'
+publication_short: 'CHB'
+abstract: ""
+summary: ""
 tags:
-- Source Themes
+- Virtual Reality
+- Aesthetic Emotions
+- Social Presence
+- Human-Computer Interaction
 featured: true
 ---

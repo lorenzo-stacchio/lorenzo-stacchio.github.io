@@ -6,20 +6,17 @@ authors:
 - Lorenzo Donatiello
 - Alessandro Giacché
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-- ""
-date: "2023-01-01 00:00:00"
+date: "2023-06-01"
+publishDate: "2023-06-01"
 doi: ""
-publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["article-journal"]
-publication: The Visual Computer , Springer London
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["article-journal"]
+publication: 'The Visual Computer, Springer London'
+publication_short: 'TVC'
+abstract: ""
+summary: ""
 tags:
-- Source Themes
-featured: true
+- Augmented Reality
+- Deep Learning
+- Computer Vision
+featured: false
 ---

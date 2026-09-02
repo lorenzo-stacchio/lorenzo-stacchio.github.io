@@ -6,20 +6,17 @@ authors:
 - Shirin Hajahmadi
 - Lorenzo Donatiello
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-- ""
-date: "2024-01-15 00:00:00"
+date: "2024-01-01"
+publishDate: "2024-01-01"
 doi: ""
-publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["paper-conference"]
-publication: "2024 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)"
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["paper-conference"]
+publication: '2024 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)'
+publication_short: 'IEEE AIxVR'
+abstract: ""
+summary: ""
 tags:
-- Source Themes
-featured: true
+- Augmented Reality
+- Sport
+- Data-Driven Systems
+featured: false
 ---

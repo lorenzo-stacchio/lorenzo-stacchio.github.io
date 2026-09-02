@@ -5,20 +5,17 @@ authors:
 - Alessia Angeli
 - Giuseppe Lisanti
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-- ""
-date: "2022-01-01 00:00:00"
+date: "2022-09-01"
+publishDate: "2022-09-01"
 doi: ""
-publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["paper-conference"]
-publication: Proceedings of the 2022 ACM Conference on Information Technology for Social Good
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["paper-conference"]
+publication: 'Proceedings of the 2022 ACM Conference on Information Technology for Social Good'
+publication_short: 'ACM GoodIT'
+abstract: ""
+summary: ""
 tags:
-- Source Themes
+- Deep Learning
+- Digital Humanities
+- Social Good
 featured: false
 ---

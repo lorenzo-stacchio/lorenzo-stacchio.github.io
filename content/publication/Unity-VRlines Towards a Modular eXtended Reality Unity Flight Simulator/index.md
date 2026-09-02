@@ -4,22 +4,17 @@ authors:
 - Giuseppe Di Maria
 - Lorenzo Stacchio
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-date: "2023-11-17 00:00:00"
+date: "2023-11-01"
+publishDate: "2023-11-01"
 doi: ""
-publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["paper-conference"]
-publication: ICEC 2023 / Entertainment Computing 
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["paper-conference"]
+publication: 'International Conference on Entertainment Computing (IFIP-ICEC)'
+publication_short: 'IFIP-ICEC'
+abstract: ""
+summary: ""
 tags:
-- Source Themes
+- eXtended Reality
+- Flight Simulation
+- Modular Systems
 featured: false
 ---

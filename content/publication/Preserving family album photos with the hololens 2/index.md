@@ -4,19 +4,16 @@ authors:
 - Lorenzo Stacchio
 - Shirin Hajahmadi
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-date: "2021-01-01 00:00:00"
+date: "2021-03-01"
+publishDate: "2021-03-01"
 doi: ""
-publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["paper-conference"]
-publication: 2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["paper-conference"]
+publication: '2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)'
+publication_short: 'IEEE VRW'
+abstract: ""
+summary: ""
 tags:
-- Source Themes
+- Mixed Reality
+- Cultural Heritage
 featured: false
 ---

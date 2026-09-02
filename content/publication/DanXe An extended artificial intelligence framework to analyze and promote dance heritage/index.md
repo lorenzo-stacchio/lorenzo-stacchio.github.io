@@ -7,22 +7,18 @@ authors:
 - Allegra De Filippo
 - Elena Cervellati
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-date: "2024-01-01 00:00:00"
+date: "2024-03-01"
+publishDate: "2024-03-01"
 doi: ""
-publishDate: "2024-01-01T00:00:00Z"
-publication_types:  ["article-journal"]
-publication: Digital Applications in Archaeology and Cultural Heritage, Elsevier
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["article-journal"]
+publication: 'Digital Applications in Archaeology and Cultural Heritage, Elsevier'
+publication_short: 'DAACH'
+abstract: ""
+summary: ""
 tags:
-- Source Themes
+- Artificial Intelligence
+- Cultural Heritage
+- Dance
+- Multimodal Learning
 featured: true
 ---

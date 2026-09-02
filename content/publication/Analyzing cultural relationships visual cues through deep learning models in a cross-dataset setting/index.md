@@ -5,20 +5,17 @@ authors:
 - Alessia Angeli
 - Giuseppe Lisanti
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-- ""
-date: "2023-09-09 00:00:00"
+date: "2024-06-01"
+publishDate: "2024-06-01"
 doi: ""
-publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["article-journal"]
-publication: Neural Computing and Applications, Springer London London
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["article-journal"]
+publication: 'Neural Computing and Applications, Springer London'
+publication_short: 'NCAA'
+abstract: ""
+summary: ""
 tags:
-- Source Themes
-featured: true
+- Deep Learning
+- Computer Vision
+- Cultural Heritage
+featured: false
 ---

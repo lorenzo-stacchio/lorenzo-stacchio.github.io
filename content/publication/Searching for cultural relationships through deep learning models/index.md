@@ -5,20 +5,17 @@ authors:
 - Alessia Angeli
 - Giuseppe Lisanti
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-- ""
-date: "2022-01-01 00:00:00"
+date: "2022-09-01"
+publishDate: "2022-09-01"
 doi: ""
-publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["paper-conference"]
-publication: ""
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["paper-conference"]
+publication: '1st International Virtual Conference on Visual Pattern Extraction and Recognition for Cultural Heritage Understanding (VIPERC)'
+publication_short: ''
+abstract: ""
+summary: ""
 tags:
-- Source Themes
+- Deep Learning
+- Cultural Heritage
+- Computer Vision
 featured: false
 ---

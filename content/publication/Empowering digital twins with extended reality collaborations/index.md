@@ -4,19 +4,17 @@ authors:
 - Lorenzo Stacchio
 - Alessia Angeli
 - Gustavo Marfia
-author_notes:
-- ""
-- ""
-- ""
-date: "2022-01-01 00:00:00"
+date: "2022-04-01"
+publishDate: "2022-04-01"
 doi: ""
-publishDate: "2017-01-01T00:00:00Z"
-publication_types:  ["article-journal"]
-publication: Virtual Reality & Intelligent Hardware, Elsevier
-publication_short: ""
-abstract:  ""
-summary:  ""
+publication_types: ["article-journal"]
+publication: 'Virtual Reality & Intelligent Hardware, Elsevier'
+publication_short: 'Virtual Reality'
+abstract: ""
+summary: ""
 tags:
-- Source Themes
+- Digital Twin
+- eXtended Reality
+- Collaboration
 featured: false
 ---
