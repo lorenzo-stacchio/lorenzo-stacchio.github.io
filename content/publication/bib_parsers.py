@@ -1,11 +1,21 @@
 # pip install bibtexparser
 import os
+import re
 import bibtexparser
 import copy
 import markdown
 import markdown_it
 import codecs
 import datetime
+
+
+def safe_dir_name(title):
+    # ':' '?' and friends are illegal in Windows paths and make the repo
+    # impossible to check out there. Hugo strips them when building slugs,
+    # so removing them keeps the published /publication/ URLs unchanged.
+    name = re.sub(r'[:?*"<>|\/]', "", title)
+    name = re.sub(r"\s+", " ", name).strip()
+    return name.rstrip(". ")
 
 
 def parse_bibtex_file(file_path):
@@ -109,7 +119,7 @@ for citations_path, mode in zip([conferences,journals],["conference", "journal"]
         bib_database_n.entries = bib_database_n.entries[idx:idx+1]
 
         title = citation['title']
-        out_dir = pub_dir + title + "/"
+        out_dir = pub_dir + safe_dir_name(title) + "/"
         print(citation)
         if not os.path.exists(out_dir):
             os.mkdir(out_dir)
