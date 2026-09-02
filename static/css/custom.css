@@ -186,6 +186,70 @@ textarea:focus-visible,
   border-radius: 2px;
 }
 
+/* --- Embedded PDF viewer ------------------------------------------------- */
+
+.pdf-embed {
+  margin: 0 0 2rem;
+}
+
+.pdf-embed__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+}
+
+.pdf-embed__label {
+  font-weight: 600;
+  color: var(--ls-muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.pdf-embed__actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.pdf-embed__frame {
+  display: block;
+  width: 100%;
+  /* Tall enough to read a page without the viewport fighting the page scroll. */
+  height: min(82vh, 1150px);
+  border: 1px solid var(--ls-rule);
+  border-radius: 6px;
+  /* A PDF page is white; keep the letterbox white in dark mode too so the
+     document does not sit on a mismatched ground. */
+  background-color: #fff;
+}
+
+.pdf-embed__fallback,
+.pdf-embed__small {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  border: 1px solid var(--ls-rule);
+  border-radius: 6px;
+}
+
+/* Shown only where the inline preview is not trustworthy. */
+.pdf-embed__small {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .pdf-embed__frame {
+    display: none;
+  }
+
+  .pdf-embed__small {
+    display: block;
+  }
+}
+
 /* --- Motion ------------------------------------------------------------- */
 
 @media (prefers-reduced-motion: reduce) {

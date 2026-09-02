@@ -1,0 +1,37 @@
+{{- /* Embedded PDF viewer.
+
+     Usage: {{< pdf src="uploads/cv.pdf" title="Curriculum Vitae" >}}
+
+     Shortcode output bypasses Goldmark's raw-HTML filtering, so this renders
+     whether or not markup.goldmark.renderer.unsafe is enabled.
+
+     <object> is used rather than <iframe> so the fallback content inside it is
+     shown by browsers that cannot render a PDF inline. Most mobile browsers
+     report support and then render a blank box, so the small-screen fallback
+     below is driven by CSS instead of relying on that. */ -}}
+
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $title := .Get "title" | default "Document" -}}
+{{- $url := $src | relURL -}}
+
+<figure class="pdf-embed">
+  <div class="pdf-embed__bar">
+    <span class="pdf-embed__label">{{ $title }}</span>
+    <span class="pdf-embed__actions">
+      <a class="btn btn-outline-primary btn-sm" href="{{ $url }}" target="_blank" rel="noopener">Open in new tab</a>
+      <a class="btn btn-outline-primary btn-sm" href="{{ $url }}" download>Download PDF</a>
+    </span>
+  </div>
+
+  <object class="pdf-embed__frame" data="{{ $url }}" type="application/pdf" aria-label="{{ $title }}">
+    <div class="pdf-embed__fallback">
+      <p>This browser cannot display PDFs inline.</p>
+      <a class="btn btn-outline-primary" href="{{ $url }}" target="_blank" rel="noopener">Open {{ $title }}</a>
+    </div>
+  </object>
+
+  <div class="pdf-embed__small">
+    <p>Inline PDF preview is unreliable on mobile browsers.</p>
+    <a class="btn btn-outline-primary" href="{{ $url }}" target="_blank" rel="noopener">Open {{ $title }}</a>
+  </div>
+</figure>

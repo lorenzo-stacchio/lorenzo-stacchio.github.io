@@ -71,7 +71,7 @@ social:
     link: https://www.linkedin.com/in/lorenzo-stacchio/
   - icon: cv
     icon_pack: ai
-    link: uploads/cv.pdf
+    link: /cv/
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
