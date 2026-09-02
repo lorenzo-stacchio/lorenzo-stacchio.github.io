@@ -1,0 +1,6 @@
+name = "Stacchio"
+google_fonts = "family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500"
+heading_font = "Space Grotesk"
+body_font = "Source Serif 4"
+nav_font = "Space Grotesk"
+mono_font = "JetBrains Mono"

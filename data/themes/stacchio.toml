@@ -1,0 +1,34 @@
+# Theme metadata
+name = "Stacchio"
+
+[light]
+  # Primary
+  primary = "#4338CA"
+
+  # Menu
+  menu_primary = "#FFFFFF"
+  menu_text = "#3A3D4D"
+  menu_text_active = "#4338CA"
+  menu_title = "#15161D"
+
+  # Home sections - warm paper rather than neutral grey
+  home_section_odd = "#FFFFFF"
+  home_section_even = "#F5F3EF"
+
+[dark]
+  # Primary
+  primary = "#A5B4FC"
+
+  link = "#A5B4FC"
+  link_hover = "#C7D2FE"
+
+  # Menu
+  menu_primary = "#12131A"
+  menu_text = "#B8BCCC"
+  menu_text_active = "#A5B4FC"
+  menu_title = "#F2F3F7"
+
+  # Backgrounds
+  background = "#0E0F15"
+  home_section_odd = "#0E0F15"
+  home_section_even = "#15161E"

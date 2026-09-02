@@ -1,0 +1,207 @@
+/* ---------------------------------------------------------------------------
+   Site-author styles, layered over Wowchemy v5.
+
+   Scope: typography rhythm, reading measure, publication-list density, and the
+   browser surfaces the theme leaves at their defaults (selection, caret, focus
+   ring, scrollbar). Structure and layout stay with the theme.
+
+   Palette comes from data/themes/stacchio.toml; the tokens below mirror it so
+   custom rules stay in step with it.
+   --------------------------------------------------------------------------- */
+
+:root {
+  --ls-accent: #4338ca;
+  --ls-accent-soft: rgba(67, 56, 202, 0.1);
+  --ls-ink: #15161d;
+  --ls-muted: #5a5e70;
+  --ls-rule: rgba(21, 22, 29, 0.1);
+  --ls-measure: 68ch;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ls-accent: #a5b4fc;
+    --ls-accent-soft: rgba(165, 180, 252, 0.16);
+    --ls-ink: #f2f3f7;
+    --ls-muted: #a3a8bb;
+    --ls-rule: rgba(242, 243, 247, 0.14);
+  }
+}
+
+/* Wowchemy sets an explicit theme via this attribute; keep tokens aligned with
+   it so an explicit choice beats the OS preference in both directions. */
+html[data-theme='dark'] {
+  --ls-accent: #a5b4fc;
+  --ls-accent-soft: rgba(165, 180, 252, 0.16);
+  --ls-ink: #f2f3f7;
+  --ls-muted: #a3a8bb;
+  --ls-rule: rgba(242, 243, 247, 0.14);
+}
+
+html[data-theme='light'] {
+  --ls-accent: #4338ca;
+  --ls-accent-soft: rgba(67, 56, 202, 0.1);
+  --ls-ink: #15161d;
+  --ls-muted: #5a5e70;
+  --ls-rule: rgba(21, 22, 29, 0.1);
+}
+
+/* --- Typography ---------------------------------------------------------- */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+.section-heading,
+.article-title {
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.section-heading {
+  font-weight: 600;
+}
+
+/* Long-form prose wants a bounded measure; dense lists and grids do not. */
+.wg-about-biography .article-style p,
+.article-style > p,
+.article-style > ul,
+.article-style > ol {
+  max-width: var(--ls-measure);
+}
+
+/* Numerals in citations, dates and volumes should align in a column. */
+.pub-list-item,
+.article-metadata,
+.publication-cite,
+time {
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Links --------------------------------------------------------------- */
+
+.article-style a:not(.btn),
+.wg-about-biography a:not(.btn) {
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 0.06em;
+  transition: color 0.18s ease, text-decoration-color 0.18s ease;
+}
+
+/* --- Publication list ---------------------------------------------------- */
+
+.pub-list-item {
+  padding-block: 0.85rem;
+  border-bottom: 1px solid var(--ls-rule);
+  transition: background-color 0.18s ease;
+}
+
+.pub-list-item:last-child {
+  border-bottom: 0;
+}
+
+.pub-list-item:hover {
+  background-color: var(--ls-accent-soft);
+}
+
+.pub-list-item .article-title {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin-bottom: 0.2rem;
+}
+
+.pub-list-item .article-metadata,
+.pub-list-item .article-metadata a {
+  color: var(--ls-muted);
+  font-size: 0.9rem;
+}
+
+/* The citation-view icon row reads as controls, so give it real affordance. */
+.pub-icon {
+  color: var(--ls-muted);
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+a:hover > .pub-icon,
+.pub-list-item a:hover .pub-icon {
+  color: var(--ls-accent);
+}
+
+/* --- Avatar -------------------------------------------------------------- */
+
+.avatar-circle {
+  box-shadow: 0 12px 32px -12px rgba(21, 22, 29, 0.45);
+}
+
+/* --- Browser surfaces ---------------------------------------------------- */
+
+::selection {
+  background-color: var(--ls-accent);
+  color: #fff;
+}
+
+html[data-theme='dark'] ::selection,
+:root:not([data-theme='light']) ::selection {
+  color: #0e0f15;
+}
+
+html {
+  caret-color: var(--ls-accent);
+  scrollbar-color: var(--ls-muted) transparent;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--ls-muted);
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--ls-accent);
+}
+
+/* A visible, consistent keyboard focus ring - the theme relies on the UA one. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--ls-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* --- Motion ------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* --- Print --------------------------------------------------------------- */
+
+@media print {
+  .pub-list-item {
+    break-inside: avoid;
+    border-bottom: 1px solid #ddd;
+  }
+}
