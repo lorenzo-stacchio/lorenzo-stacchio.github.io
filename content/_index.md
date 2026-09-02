@@ -25,7 +25,7 @@ sections:
           date_start: '2024-02-01'
           date_end: ''
           description: |2-
-              Research, teaching and technology transfer within the VRAI laboratory, on consumer behaviour analysis in retail through top-view RGB-D cameras, and more broadly on eXtended Reality and Artificial Intelligence. Supervised by Prof. Emanuele Frontoni and Prof. Marina Paolanti.
+              Research, teaching and technology transfer within the VRAI laboratory, on consumer behaviour analysis in retail through top-view RGB-D cameras, and more broadly on eXtended Reality and Artificial Intelligence. Supervised by Prof. Emanuele Frontoni.
 
         - title: Adjunct Lecturer
           company: Università Politecnica delle Marche, Department of Information Engineering
@@ -65,7 +65,7 @@ sections:
     id: selected
     content:
       title: Selected Publications
-      text: Work that best represents the research, across venues in visualization, multimedia and human behaviour.
+      text: Here are reported recent works that best represents his research.
       filters:
         folders:
           - publication
